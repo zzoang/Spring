@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+	<configuration>
+	
+		<typeAliases>
+			<typeAlias alias="memberVO" type="com.jogiyo.deliveryFood.controller.member.memberVO" />
+			<typeAlias alias="restaurantVO" type="com.jogiyo.deliveryFood.controller.restaurant.restaurantVO" />
+		</typeAliases>
+
+
+		<mappers>
+			<mapper resource="deliveryfoodMybatis/mappers/memberSql.xml" />
+			<mapper resource="deliveryfoodMybatis/mappers/restaurnatSql.xml" />
+		</mappers>
+
+	</configuration>
